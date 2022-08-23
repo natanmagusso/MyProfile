@@ -1,0 +1,14 @@
+﻿a.hover_bottom_menu:hover {
+    color: #EA0035 !important;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 5px 0;
+}

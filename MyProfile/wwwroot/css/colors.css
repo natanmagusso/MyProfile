@@ -1,0 +1,45 @@
+﻿/*Cores bases do sistema*/
+.black {
+    color: #111111 !important;
+}
+
+.white {
+    color: #FFFFFF !important;
+}
+
+.gray {
+    color: #C0C0C0 !important;
+}
+
+.dark {
+    color: #272727 !important;
+}
+
+.red {
+    color: #EA0035 !important;
+}
+
+.secondary {
+    color: #69757D !important;
+}
+
+.background-black {
+    background-color: #111111 !important;
+}
+
+.background-dark {
+    background-color: #272727 !important;
+}
+
+.background-selecion-dark {
+    background-color: #202124 !important;
+    border-radius: 10px;
+}
+
+.background-gray {
+    background-color: #D8D8D8 !important;
+}
+
+.background-white {
+    background-color: #FFFFFF !important;
+}

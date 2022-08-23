@@ -1,0 +1,77 @@
+﻿section {
+    padding: 100px 0;
+}
+
+section .title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+    section .title::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 200px;
+        height: 3px;
+        transform: translateX(-50%);
+    }
+
+    section .title::after {
+        position: absolute;
+        bottom: -12px;
+        left: 50%;
+        font-size: 17px;
+        color: #EA0035 !important;
+        padding: 5px;
+        transform: translateX(-50%);
+    }
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.about .title::after {
+    content: "Quem sou eu";
+    background: #FFFFFF !important;
+}
+.about .title::before {
+    background: #111111;
+}
+
+.formations .title::after {
+    content: "Onde estudei";
+    background: #111111 !important;
+}
+.formations .title::before {
+    background: #FFFFFF;
+}
+
+.skills .title::after {
+    content: "O que aprendi";
+    background: #FFFFFF !important;
+}
+.skills .title::before {
+    background: #111111;
+}
+
+.experiences .title::after {
+    content: "Onde trabalhei";
+    background: #111111 !important;
+}
+.experiences .title::before {
+    background: #FFFFFF;
+}
+
+.contacts .title::after {
+    content: "Fale comigo";
+    background: #FFFFFF !important;
+}
+.contacts .title::before {
+    background: #111111;
+}

@@ -1,0 +1,16 @@
+﻿.btn-outline-red {
+    color: #EA0035 !important;
+    background-color: transparent !important;
+    border-color: #EA0035 !important;
+    border-radius: 3px;
+}
+
+    .btn-outline-red:hover,
+    .btn-outline-red:active,
+    .btn-outline-red:focus,
+    .btn-outline-red.active {
+        color: #111111 !important;
+        background-color: #EA0035 !important;
+        border-color: #EA0035 !important;
+        border-radius: 3px;
+    }

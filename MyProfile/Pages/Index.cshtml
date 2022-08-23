@@ -1,0 +1,357 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Meu perfil";
+}
+
+<!--Início-->
+<section id="home" class="home">
+    <div class="max-width">
+        <div class="display-6 mb-1">Ola, meu nome é</div>
+        <div class="display-4 mb-1 fw-bold">Natan Piassi Magusso</div>
+        <div class="display-6 mb-5">eu sou <span class="display-6 red fw-bold">Full Stack Developer</span></div>
+        <a href="#about" class="btn btn-outline-red btn-lg px-5 me-sm-3 fw-bold">Saiba mais</a>
+    </div>
+</section>
+<!--Sobre-->
+<section id="about" class="about background-white">
+    <div class="max-width px-5 black">
+        <div class="display-6 title">Sobre</div>
+        <div class="py-5 text-left">
+            <p class="fs-5 mb-4 lh-base paragraph-justify">Sou um Full Stack Developer, formado em Sistemas de Informação pela UNIFAFIBE em 2011, pós-graduado em Arquitetura de Software pelo SENAC em 2017 e pós-graduado em Consultoria Web pela FATEC em 2022. Meu maior objetivo é estar sempre buscando melhorias, conhecimentos na área, estudando e aprendendo as novas tecnologias de desenvolvimento atuais. Busco me esforçar ao máximo para crescer profissionalmente e ajudar a empresa que estou, alcançar seus objetivos.</p>
+            <p class="fs-5 mb-5 lh-base paragraph-justify">Atuo na área de desenvolvimento desde 2011. Tenho 32 anos e sou apaixonado por tecnologia e por minha profissão, não me imagino fazendo outra coisa. Costumo dizer que não preciso de hobby, pois me divirto com o que faço.</p>
+            <center>
+                <ul class="list-group">
+                    <li class="list-group-item border-0">                        
+                        <a class="black hover_bottom_menu" href="https://www.linkedin.com/in/natan-magusso-5791b298/" target="_blank" style="text-decoration:none">
+                            <svg class="bi bd-placeholder-img" width="30" height="30" role="img" focusable="false">
+                                <use xlink:href="#iconLinkedin" />
+                            </svg>
+                        </a>
+                        &nbsp;&nbsp;&nbsp;
+                        <a class="black hover_bottom_menu" href="https://github.com/natanmagusso" target="_blank" style="text-decoration:none">
+                            <svg class="bi bd-placeholder-img" width="30" height="30" role="img" focusable="false">
+                                <use xlink:href="#iconGitHub" />
+                            </svg>
+                        </a>
+                        &nbsp;&nbsp;&nbsp;
+                        <a class="black hover_bottom_menu" href="https://drive.google.com/file/d/162J1-1USiJSNU6PD73aTdmmLNd5_a0Bd/view" target="_blank" style="text-decoration:none">
+                            <svg class="bi bd-placeholder-img" width="30" height="30" role="img" focusable="false">
+                                <use xlink:href="#iconFilePerson" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </center>
+        </div>
+    </div>
+</section>
+<!--Formações-->
+<section id="formations" class="formations background-black">
+    <div class="max-width px-5 white">
+        <div class="display-6 title">Formações</div>
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <!--FATEC-->
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden background-selecion-dark rounded-5">
+                    <div class="d-flex flex-column h-100 p-3 pb-3">
+                        <div class="fs-5 pt-1 mt-1 mb-3 text-center red fw-bold">FATEC - Faculdade de Tecnologia</div>
+                        <div class="fs-6 pt-1 mt-1 mb-0 text-center">Pós graduação Lato Sensu</div>
+                        <div class="fs-6 pt-1 mt-1 mb-5 text-center">Consultoria Web</div>
+                        <ul class="d-flex list-unstyled mt-auto justify-content-center">
+                            <li class="d-flex align-items-center me-3">
+                                <svg class="bi me-1 red" width="1em" height="1em"><use xlink:href="#iconLocation" /></svg>
+                                <small>São José do Rio Preto/SP</small>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <svg class="bi me-2 red" width="1em" height="1em"><use xlink:href="#iconCalendar" /></svg>
+                                <small>2020 - 2022</small>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--SENAC-->
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden background-selecion-dark rounded-5">
+                    <div class="d-flex flex-column h-100 p-3 pb-3">
+                        <div class="fs-5 pt-1 mt-1 mb-3 text-center red fw-bold">Centro Universitário SENAC</div>
+                        <div class="fs-6 pt-1 mt-1 mb-0 text-center">Pós graduação Lato Sensu</div>
+                        <div class="fs-6 pt-1 mt-1 mb-5 text-center">Tecnologias e Arquiteturas na Construção de Software</div>
+                        <ul class="d-flex list-unstyled mt-auto justify-content-center">
+                            <li class="d-flex align-items-center me-3">
+                                <svg class="bi me-1 red" width="1em" height="1em"><use xlink:href="#iconLocation" /></svg>
+                                <small>São José do Rio Preto/SP</small>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <svg class="bi me-2 red" width="1em" height="1em"><use xlink:href="#iconCalendar" /></svg>
+                                <small>2016 - 2017</small>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--UNIFAFIBE-->
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden background-selecion-dark rounded-5">
+                    <div class="d-flex flex-column h-100 p-3 pb-3">
+                        <div class="fs-5 pt-1 mt-1 mb-3 text-center red fw-bold">Centro Universitário UNIFAFIBE</div>
+                        <div class="fs-6 pt-1 mt-1 mb-0 text-center">Graduação - Bacharelado</div>
+                        <div class="fs-6 pt-1 mt-1 mb-5 text-center">Sistemas de Informação</div>
+                        <ul class="d-flex list-unstyled mt-auto justify-content-center">
+                            <li class="d-flex align-items-center me-3">
+                                <svg class="bi me-1 red" width="1em" height="1em"><use xlink:href="#iconLocation" /></svg>
+                                <small>Bebedouro/SP</small>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <svg class="bi me-2 red" width="1em" height="1em"><use xlink:href="#iconCalendar" /></svg>
+                                <small>2008 - 2011</small>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Habilidades-->
+<section id="skills" class="skills background-white">
+    <div class="max-width px-5 black">
+        <div class="display-6 title">Habilidades</div>
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <!--Back-end-->
+            <div class="col">
+                <div class="overflow-hidden">
+                    <div class="d-flex flex-column">
+                        <div class="fs-5 mb-2 text-center">Back-end</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                <span class="span-text-left">C#.NET<i class="span-text-end">90%</i></span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
+                                <span class="span-text-left">Dart<i class="span-text-end">45%</i></span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                <span class="span-text-left">Delphi<i class="span-text-end">95%</i></span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                <span class="span-text-left">EntityFrameworkCore<i class="span-text-end">70%</i></span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                                <span class="span-text-left">JavaScript<i class="span-text-end">55%</i></span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                <span class="span-text-left">Migrations<i class="span-text-end">70%</i></span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                <span class="span-text-left">Linguagem SQL<i class="span-text-end">90%</i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Front-end-->
+            <div class="col">
+                <div class="overflow-hidden">
+                    <div class="d-flex flex-column">
+                        <div class="fs-5 mb-2 text-center">Front-end</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                <span class="span-text-left">ASP.NET<i class="span-text-end">80%</i></span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                <span class="span-text-left">CSS<i class="span-text-end">60%</i></span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                <span class="span-text-left">Fluig Style Guide<i class="span-text-end">60%</i></span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
+                                <span class="span-text-left">Flutter<i class="span-text-end">45%</i></span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                <span class="span-text-left">HTML<i class="span-text-end">75%</i></span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">
+                                <span class="span-text-left">ReactJs<i class="span-text-end">35%</i></span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">
+                                <span class="span-text-left">VueJs<i class="span-text-end">35%</i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--IDE-->
+            <div class="col">
+                <div class="overflow-hidden">
+                    <div class="d-flex flex-column">
+                        <div class="fs-5 mb-2 text-center">IDE</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                                <span class="span-text-left">Android Studio<i class="span-text-end">65%</i></span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                <span class="span-text-left">Postman<i class="span-text-end">60%</i></span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                <span class="span-text-left">Swagger<i class="span-text-end">60%</i></span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                <span class="span-text-left">TOTVS Developer Studio<i class="span-text-end">80%</i></span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                <span class="span-text-left">Visual Studio<i class="span-text-end">95%</i></span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                <span class="span-text-left">VS Code<i class="span-text-end">75%</i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Experiências-->
+<section id="experiences" class="experiences background-black">
+    <div class="max-width px-5 white">
+        <div class="display-6 title">Experiências</div>
+        <div class="row row-cols-1 row-cols-lg-4 align-items-stretch g-4 py-5">
+            <!--Montecitrus-->
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden background-selecion-dark rounded-5">
+                    <div class="d-flex flex-column h-100 p-3 pb-3">
+                        <div class="fs-5 pt-1 mt-1 mb-3 text-center red fw-bold">Montecitrus Participações LTDA</div>
+                        <div class="fs-6 pt-1 mt-1 mb-5 text-center white">Full Stack Developer</div>
+                        <ul class="d-flex list-unstyled mt-auto justify-content-center">
+                            <li class="d-flex align-items-center me-3">
+                                <svg class="bi me-1 red" width="1em" height="1em"><use xlink:href="#iconLocation" /></svg>
+                                <small>Monte Azul Paulista/SP</small>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <svg class="bi me-2 red" width="1em" height="1em"><use xlink:href="#iconCalendar" /></svg>
+                                <small>2014</small>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--DClick-->
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden secondary background-selecion-dark rounded-5">
+                    <div class="d-flex flex-column h-100 p-3 pb-3 secondary">
+                        <div class="fs-5 pt-1 mt-1 mb-3 text-center fw-bold">DClick Web & Mobile Solutions</div>
+                        <div class="fs-6 pt-1 mt-1 mb-5 text-center">Freelance - Fluig Developer Analyst</div>
+                        <ul class="d-flex list-unstyled mt-auto justify-content-center">
+                            <li class="d-flex align-items-center me-3">
+                                <svg class="bi me-1" width="1em" height="1em"><use xlink:href="#iconLocation" /></svg>
+                                <small>Rio de Janeiro/RJ</small>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#iconCalendar" /></svg>
+                                <small>3m</small>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--Habit-->
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden secondary background-selecion-dark rounded-5">
+                    <div class="d-flex flex-column h-100 p-3 pb-3 secondary">
+                        <div class="fs-5 pt-1 mt-1 mb-3 text-center fw-bold">Habit Imóveis</div>
+                        <div class="fs-6 pt-1 mt-1 mb-5 text-center">.Net Full Stack Developer</div>
+                        <ul class="d-flex list-unstyled mt-auto justify-content-center">
+                            <li class="d-flex align-items-center me-3">
+                                <svg class="bi me-1" width="1em" height="1em"><use xlink:href="#iconLocation" /></svg>
+                                <small>Bebedouro/SP</small>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#iconCalendar" /></svg>
+                                <small>2013 - 2014</small>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--Emif-->
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden secondary background-selecion-dark rounded-5">
+                    <div class="d-flex flex-column h-100 p-3 pb-3 secondary">
+                        <div class="fs-5 pt-1 mt-1 mb-3 text-center fw-bold">Emif Software</div>
+                        <div class="fs-6 pt-1 mt-1 mb-5 text-center">.Net Full Stack Developer</div>
+                        <ul class="d-flex list-unstyled mt-auto justify-content-center">
+                            <li class="d-flex align-items-center me-3">
+                                <svg class="bi me-1" width="1em" height="1em"><use xlink:href="#iconLocation" /></svg>
+                                <small>Marcondésia/SP</small>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#iconCalendar" /></svg>
+                                <small>2012 - 2013</small>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Contatos-->
+<section id="contacts" class="contacts background-white">
+    <div class="max-width px-5 black">
+        <div class="display-6 mb-5 title">Contatos</div>
+        <div class="center">
+            <div class="row">
+                <div class="col-lg-4 p-3">
+                    <svg class="bi bd-placeholder-img red mb-2" width="45" height="45" role="img" focusable="false"><use xlink:href="#iconLocation" /></svg>
+                    <div class="fs-5 mb-2 text-center black fw-bold">Endereço</div>
+                    <p class="fs-6">Rua São João, 393 - Centro<br>Monte Azul Paulista/SP</p>
+                </div>
+                <div class="col-lg-4 p-3">
+                    <svg class="bi bd-placeholder-img red mb-2" width="45" height="45" role="img" focusable="false"><use xlink:href="#iconWhatsApp" /></svg>
+                    <div class="fs-5 mb-2 text-center black fw-bold">WhatsApp</div>
+                    <a class="fs-6 black hover_bottom_menu" href="https://wa.me/5517997356082" target="_blank" style="text-decoration:none">+55 17 99735-6082</a>
+                </div>
+                <div class="col-lg-4 p-3">
+                    <svg class="bi bd-placeholder-img red mb-2" width="45" height="45" role="img" focusable="false"><use xlink:href="#iconEmail" /></svg>
+                    <div class="fs-5 mb-2 text-center black fw-bold">E-mail</div>
+                    <a class="fs-6 black hover_bottom_menu" href="mailto:natanmagusso@hotmail.com" style="text-decoration:none">natanmagusso@hotmail.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
